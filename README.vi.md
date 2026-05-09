@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">Website</a> •
   <a href="https://www.agentkits.net/docs">Tài liệu</a> •
-  <a href="#cài-đặt">Cài đặt</a> •
-  <a href="#đào-tạo">Đào tạo</a>
+  <a href="#cài-đặt">Cài đặt</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # Lead đến khách hàng
 |       |-- crm-workflow.md             # Vòng đời contact
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # Tài liệu và hướng dẫn
 |-- marketplace.json     # Cấu hình marketplace tự host
 ```
@@ -338,219 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## Đào tạo
-
-**22 bài học tương tác** để thành thạo marketing hỗ trợ bởi AI. Học bằng cách thực hiện công việc marketing thực sự bên trong trợ lý AI của bạn.
-
-| | |
-|---|---|
-| **Phương pháp** | Bài học tương tác được dạy bởi Claude |
-| **Dự án** | Agency Markit làm việc cho khách hàng AgentKits |
-| **Thời lượng** | 5-6 giờ tổng cộng |
-| **Điều kiện tiên quyết** | Claude Code, Cursor hoặc trợ lý AI tương thích |
-| **Languages** | 10 languages: EN, 简体中文, 日本語, 한국어, ES, DE, FR, PT, VI, RU, AR |
-
-```bash
-# Start training in your language
-/training:start-0-0           # English
-/training-zh:start-0-0        # 简体中文
-/training-ja:start-0-0        # 日本語
-/training-ko:start-0-0        # 한국어
-/training-es:start-0-0        # Español
-/training-de:start-0-0        # Deutsch
-/training-fr:start-0-0        # Français
-/training-pt-br:start-0-0     # Português
-/training-vi:start-0-0        # Tiếng Việt
-/training-ru:start-0-0        # Русский
-/training-ar:start-0-0        # العربية
-```
-
----
-
-### Dự án Thực hành: Agency Markit
-
-Bạn là một Chiến lược gia Marketing tại **Markit**, một agency marketing SaaS B2B.
-
-**Khách hàng của bạn:** AgentKits - Bộ công cụ tự động hóa marketing AI
-
-| | |
-|---|---|
-| **Sản phẩm** | Tự động hóa marketing AI cấp doanh nghiệp |
-| **Đối tượng** | Nhà sáng lập SaaS, marketers và đội ngũ tăng trưởng |
-| **Định giá** | Miễn phí & Mã nguồn mở (giấy phép MIT) |
-| **Đối thủ** | Jasper, Copy.ai, HubSpot |
-
-**Personas Chính:**
-- **Solo Sam** (25-35) - Solopreneur/indie hacker, SaaS tự tài trợ
-- **Marketer Maya** (30-40) - Quản lý marketing, công ty SaaS cỡ trung
-- **Founder Felix** (28-40) - Nhà sáng lập kỹ thuật, startup giai đoạn đầu
-
----
-
-### Module 0: Bắt đầu (30 phút)
-
-Học những điều cơ bản và hoàn thành nhiệm vụ marketing đầu tiên của bạn.
-
-| Command | Bài học | Thời lượng |
-|---------|--------|----------|
-| `/training:start-0-0` | Giới thiệu Khóa học | 10 phút |
-| `/training:start-0-1` | Cài đặt & Thiết lập | 15 phút |
-| `/training:start-0-2` | Nhiệm vụ Marketing Đầu tiên của Bạn | 15 phút |
-
-**Bạn Sẽ Học:**
-- Giao diện trợ lý AI và các lệnh cơ bản
-- Tạo và quản lý file
-- Tương tác với AI cho các nhiệm vụ marketing
-
----
-
-### Module 1: Khái niệm Cốt lõi (90 phút)
-
-Thành thạo các workflows cơ bản thông qua dự án agency Markit.
-
-| Command | Bài học | Thời lượng |
-|---------|--------|----------|
-| `/training:start-1-1` | Chào mừng đến Markit | 20 phút |
-| `/training:start-1-2` | Làm việc với Files Marketing | 25 phút |
-| `/training:start-1-3` | Nhiệm vụ Marketing Đầu tiên | 30 phút |
-| `/training:start-1-4` | Sử dụng Agents cho Marketing | 35 phút |
-| `/training:start-1-5` | Tìm hiểu Sâu Reviewer Agents | 30 phút |
-| `/training:start-1-6` | Bộ nhớ Dự án (CLAUDE.md) | 20 phút |
-| `/training:start-1-7` | Điều hướng & Tìm kiếm | 20 phút |
-
-**Bạn Sẽ Học:**
-- Tạo campaign brief
-- Phát triển brand voice và persona
-- Điều phối và ủy quyền agent
-- Best practices tổ chức file
-- Sử dụng bộ nhớ dự án hiệu quả
-
-**Bạn Sẽ Xây dựng:**
-- Campaign brief hoàn chỉnh
-- Tài liệu hướng dẫn thương hiệu
-- Personas khách hàng
-- Reviewer agents tùy chỉnh
-
----
-
-### Module 2: Ứng dụng Nâng cao (120 phút)
-
-Áp dụng kỹ năng vào các tình huống marketing thực tế ở quy mô lớn.
-
-| Command | Bài học | Thời lượng |
-|---------|--------|----------|
-| `/training:start-2-1` | Viết Campaign Brief | 45 phút |
-| `/training:start-2-2` | Phát triển Chiến lược Nội dung | 40 phút |
-| `/training:start-2-3` | Tạo Copy Marketing | 35 phút |
-| `/training:start-2-4` | Phân tích Dữ liệu Chiến dịch | 35 phút |
-| `/training:start-2-5` | Phân tích Cạnh tranh | 30 phút |
-| `/training:start-2-6` | Tối ưu SEO | 40 phút |
-
-**Bạn Sẽ Học:**
-- Lập kế hoạch chiến dịch chiến lược
-- Tạo nội dung đa kênh
-- Phân tích dữ liệu và insights
-- Thu thập thông tin cạnh tranh
-- Best practices SEO
-
-**Bạn Sẽ Xây dựng:**
-- Thư viện nội dung hoàn chỉnh (blog, email, social, ads)
-- Báo cáo phân tích cạnh tranh
-- Kế hoạch tối ưu SEO
-- Dashboard phân tích chiến dịch
-
----
-
-### Module 3: CRO & Chuyển đổi (60 phút)
-
-Thành thạo tối ưu tỷ lệ chuyển đổi với các skills CRO chuyên biệt.
-
-| Command | Bài học | Thời lượng |
-|---------|--------|----------|
-| `/training:start-3-1` | Nền tảng CRO | 20 phút |
-| `/training:start-3-2` | Tối ưu Form & Đăng ký | 20 phút |
-| `/training:start-3-3` | CRO Popup & Onboarding | 20 phút |
-
-**Bạn Sẽ Học:**
-- 7 skills CRO cho toàn bộ conversion funnel
-- Tối ưu form (quy tắc 5-field)
-- Best practices signup flow
-- Thiết kế và triggers popup
-- Onboarding và activation
-- Paywalls và màn hình nâng cấp
-- Thiết kế A/B test
-
-**Bạn Sẽ Xây dựng:**
-- Đánh giá CRO landing page
-- Thiết kế form tối ưu
-- Onboarding flow
-- Màn hình nâng cấp
-- Giả thuyết A/B test
-
-**Phủ sóng CRO Funnel Đầy đủ:**
-```
-Visitor → Page CRO → Form CRO → Signup CRO
-     ↓
-  Popup CRO (capture abandoners)
-     ↓
-New User → Onboarding CRO → Activation
-     ↓
-Free User → Paywall CRO → Paid Customer
-```
-
----
-
-### Nội dung Bonus
-
-| Command | Mô tả |
-|---------|-------------|
-| `/training:bonus-patterns` | Thư viện pattern cho headlines, emails, social, ads, CRO |
-| `/training:bonus-secret` | Framework 10x Marketer |
-| `/training:help` | Hiển thị tất cả commands đào tạo có sẵn |
-
----
-
-### Đào tạo Đa ngôn ngữ
-
-Đào tạo có sẵn bằng 3 ngôn ngữ. Tất cả nội dung giống hệt nhau - chọn ngôn ngữ bạn thích:
-
-| Ngôn ngữ | Tiền tố Command | Ví dụ |
-|----------|---------------|---------|
-| **English** | `/training:` | `/training:start-0-0` |
-| **Vietnamese** (Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **Japanese** (日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**Các commands đã bản địa hóa có sẵn:**
-- `start-0-0` đến `start-0-2` (Module 0)
-- `start-1-1` đến `start-1-7` (Module 1)
-- `start-2-1` đến `start-2-6` (Module 2)
-- `start-3-1` đến `start-3-3` (Module 3)
-- `help`, `bonus-patterns`, `bonus-secret`, `persona-builder`
-
----
-
-### Hiệu ứng Gộp lại
-
-Mỗi chiến dịch làm cho chiến dịch tiếp theo nhanh hơn:
-
-| Chiến dịch | Thời gian | Cải thiện |
-|----------|------|-------------|
-| Đầu tiên (Module 2) | 40 giờ | Xây dựng từ đầu |
-| Chiến dịch thứ 5 | 15 giờ | Nhanh hơn 62% |
-| Chiến dịch thứ 10 | 10 giờ | Nhanh hơn 75% |
-
-**Bạn Sẽ Tích lũy:**
-- Templates campaign brief
-- Hướng dẫn brand voice
-- Templates nội dung (blog, email, social, ads)
-- Frameworks persona
-- Templates phân tích cạnh tranh
-- Checklists tối ưu SEO
-- Reviewer agents tùy chỉnh
-- Patterns tự động hóa workflow
-
----
-
 ## Lộ trình Học tập
 
 ### Lộ trình 1: Bắt đầu Nhanh (30 phút)
@@ -561,13 +336,7 @@ Dành cho marketers có kinh nghiệm - nhảy thẳng vào sản xuất:
 /cro:page "Your landing page"
 ```
 
-### Lộ trình 2: Đào tạo Đầy đủ (5-6 giờ)
-Dành cho người mới bắt đầu - hoàn thành đào tạo tương tác:
-```bash
-/training:start-0-0  # Bắt đầu ở đây
-```
-
-### Lộ trình 3: Theo Skill Cụ thể (15-30 phút mỗi)
+### Lộ trình 2: Theo Skill Cụ thể (15-30 phút mỗi)
 Học các skills cụ thể khi cần:
 
 | Mục tiêu | Commands |
@@ -579,14 +348,6 @@ Học các skills cụ thể khi cần:
 | **Scale SEO** | `/seo:programmatic`, `/seo:schema` |
 | **Thiết kế referral** | `/growth:referral` |
 | **A/B testing** | `/test:ab-setup` |
-
-### Lộ trình 4: Thành thạo CRO (60 phút)
-Hoàn thành đào tạo tối ưu chuyển đổi:
-```bash
-/training:start-3-1  # Bắt đầu với nền tảng
-/training:start-3-2  # Form & signup
-/training:start-3-3  # Popup & onboarding
-```
 
 ---
 

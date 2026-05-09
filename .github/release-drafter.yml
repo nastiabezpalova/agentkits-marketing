@@ -22,9 +22,6 @@ categories:
   - title: 'New Skills'
     labels:
       - 'area: skills'
-  - title: 'Training Updates'
-    labels:
-      - 'area: training'
   - title: 'Documentation'
     labels:
       - 'documentation'
@@ -70,9 +67,6 @@ autolabeler:
   - label: 'area: skills'
     files:
       - '.claude/skills/**/*'
-  - label: 'area: training'
-    files:
-      - 'training/**/*'
   - label: 'bug'
     branch:
       - '/fix\/.+/'

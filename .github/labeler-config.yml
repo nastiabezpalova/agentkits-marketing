@@ -18,10 +18,6 @@
   - changed-files:
       - any-glob-to-any-file: '.claude/workflows/**/*'
 
-"area: training":
-  - changed-files:
-      - any-glob-to-any-file: 'training/**/*'
-
 "area: integrations":
   - changed-files:
       - any-glob-to-any-file: '.claude/skills/integrations/**/*'

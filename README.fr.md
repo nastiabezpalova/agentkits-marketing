@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">Site web</a> •
   <a href="https://www.agentkits.net/docs">Documentation</a> •
-  <a href="#installation">Installer</a> •
-  <a href="#formation">Formation</a>
+  <a href="#installation">Installer</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # Du lead au client
 |       |-- crm-workflow.md             # Cycle de vie des contacts
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # Documentation et guides
 |-- marketplace.json     # Configuration marketplace auto-hébergée
 ```
@@ -338,219 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## Formation
-
-**22 leçons interactives** pour maîtriser le marketing alimenté par l'IA. Apprenez en faisant du vrai travail de marketing dans votre assistant IA.
-
-| | |
-|---|---|
-| **Méthode** | Leçons interactives enseignées par Claude |
-| **Projet** | Agence Markit travaillant pour le client AgentKits |
-| **Durée** | 5-6 heures au total |
-| **Prérequis** | Claude Code, Cursor ou assistant IA compatible |
-| **Langues** | Anglais, Vietnamien (Tiếng Việt), Japonais (日本語) |
-
-```bash
-# Start training in your language
-/training:start-0-0           # English
-/training-zh:start-0-0        # 简体中文
-/training-ja:start-0-0        # 日本語
-/training-ko:start-0-0        # 한국어
-/training-es:start-0-0        # Español
-/training-de:start-0-0        # Deutsch
-/training-fr:start-0-0        # Français
-/training-pt-br:start-0-0     # Português
-/training-vi:start-0-0        # Tiếng Việt
-/training-ru:start-0-0        # Русский
-/training-ar:start-0-0        # العربية
-```
-
----
-
-### Projet pratique : Agence Markit
-
-Vous êtes Stratège Marketing chez **Markit**, une agence marketing SaaS B2B.
-
-**Votre client :** AgentKits - Boîte à outils d'automation marketing IA
-
-| | |
-|---|---|
-| **Produit** | Automation marketing IA de niveau entreprise |
-| **Cible** | Fondateurs SaaS, marketeurs et équipes de croissance |
-| **Tarification** | Gratuit et Open Source (licence MIT) |
-| **Concurrents** | Jasper, Copy.ai, HubSpot |
-
-**Personas clés :**
-- **Solo Sam** (25-35) - Solopreneur/indie hacker, SaaS bootstrappé
-- **Marketer Maya** (30-40) - Responsable marketing, entreprise SaaS de taille moyenne
-- **Founder Felix** (28-40) - Fondateur technique, startup en phase initiale
-
----
-
-### Module 0 : Démarrage (30 min)
-
-Apprenez les bases et réalisez votre première tâche marketing.
-
-| Commande | Leçon | Durée |
-|---------|--------|----------|
-| `/training:start-0-0` | Introduction au cours | 10 min |
-| `/training:start-0-1` | Installation et configuration | 15 min |
-| `/training:start-0-2` | Votre première tâche marketing | 15 min |
-
-**Ce que vous apprendrez :**
-- Interface de l'assistant IA et commandes de base
-- Création et gestion de fichiers
-- Interaction avec l'IA pour les tâches marketing
-
----
-
-### Module 1 : Concepts fondamentaux (90 min)
-
-Maîtrisez les workflows fondamentaux à travers le projet de l'agence Markit.
-
-| Commande | Leçon | Durée |
-|---------|--------|----------|
-| `/training:start-1-1` | Bienvenue chez Markit | 20 min |
-| `/training:start-1-2` | Travailler avec les fichiers marketing | 25 min |
-| `/training:start-1-3` | Premières tâches marketing | 30 min |
-| `/training:start-1-4` | Utiliser les agents pour le marketing | 35 min |
-| `/training:start-1-5` | Approfondissement des agents réviseurs | 30 min |
-| `/training:start-1-6` | Mémoire de projet (CLAUDE.md) | 20 min |
-| `/training:start-1-7` | Navigation et recherche | 20 min |
-
-**Ce que vous apprendrez :**
-- Création de brief de campagne
-- Développement de la voix de marque et des personas
-- Coordination et délégation d'agents
-- Meilleures pratiques d'organisation de fichiers
-- Utilisation efficace de la mémoire de projet
-
-**Ce que vous construirez :**
-- Brief de campagne complet
-- Document de directives de marque
-- Personas clients
-- Agents réviseurs personnalisés
-
----
-
-### Module 2 : Applications avancées (120 min)
-
-Appliquez vos compétences à des scénarios marketing réels à grande échelle.
-
-| Commande | Leçon | Durée |
-|---------|--------|----------|
-| `/training:start-2-1` | Rédiger un brief de campagne | 45 min |
-| `/training:start-2-2` | Développer une stratégie de contenu | 40 min |
-| `/training:start-2-3` | Générer des textes marketing | 35 min |
-| `/training:start-2-4` | Analyser les données de campagne | 35 min |
-| `/training:start-2-5` | Analyse concurrentielle | 30 min |
-| `/training:start-2-6` | Optimisation SEO | 40 min |
-
-**Ce que vous apprendrez :**
-- Planification stratégique de campagnes
-- Création de contenu multicanal
-- Analyse de données et insights
-- Collecte de veille concurrentielle
-- Meilleures pratiques SEO
-
-**Ce que vous construirez :**
-- Bibliothèque de contenu complète (blog, email, réseaux sociaux, publicités)
-- Rapport d'analyse concurrentielle
-- Plan d'optimisation SEO
-- Tableau de bord d'analyse de campagnes
-
----
-
-### Module 3 : CRO et conversion (60 min)
-
-Maîtrisez l'optimisation du taux de conversion avec des compétences CRO spécialisées.
-
-| Commande | Leçon | Durée |
-|---------|--------|----------|
-| `/training:start-3-1` | Fondamentaux du CRO | 20 min |
-| `/training:start-3-2` | Optimisation de formulaires et inscription | 20 min |
-| `/training:start-3-3` | CRO de popup et onboarding | 20 min |
-
-**Ce que vous apprendrez :**
-- 7 compétences CRO pour le funnel de conversion complet
-- Optimisation de formulaire (règle des 5 champs)
-- Meilleures pratiques de flux d'inscription
-- Conception et déclencheurs de popup
-- Onboarding et activation
-- Écrans de paywall et de mise à niveau
-- Conception de tests A/B
-
-**Ce que vous construirez :**
-- Audit CRO de page de destination
-- Conception de formulaire optimisée
-- Flux d'onboarding
-- Écran de mise à niveau
-- Hypothèses de test A/B
-
-**Couverture complète du funnel CRO :**
-```
-Visiteur → Page CRO → Formulaire CRO → Inscription CRO
-     ↓
-  Popup CRO (capturer les abandons)
-     ↓
-Nouvel utilisateur → Onboarding CRO → Activation
-     ↓
-Utilisateur gratuit → Paywall CRO → Client payant
-```
-
----
-
-### Contenu bonus
-
-| Commande | Description |
-|---------|-------------|
-| `/training:bonus-patterns` | Bibliothèque de modèles pour titres, emails, réseaux sociaux, publicités, CRO |
-| `/training:bonus-secret` | Le Framework du Marketeur 10x |
-| `/training:help` | Afficher toutes les commandes de formation disponibles |
-
----
-
-### Formation multilingue
-
-La formation est disponible en 3 langues. Tout le contenu est identique - choisissez votre langue préférée :
-
-| Langue | Préfixe de commande | Exemple |
-|----------|---------------|---------|
-| **Anglais** | `/training:` | `/training:start-0-0` |
-| **Vietnamien** (Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **Japonais** (日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**Commandes localisées disponibles :**
-- `start-0-0` à `start-0-2` (Module 0)
-- `start-1-1` à `start-1-7` (Module 1)
-- `start-2-1` à `start-2-6` (Module 2)
-- `start-3-1` à `start-3-3` (Module 3)
-- `help`, `bonus-patterns`, `bonus-secret`, `persona-builder`
-
----
-
-### L'effet cumulatif
-
-Chaque campagne rend la suivante plus rapide :
-
-| Campagne | Temps | Amélioration |
-|----------|------|-------------|
-| Première (Module 2) | 40 h | Construire de zéro |
-| 5e campagne | 15 h | 62% plus rapide |
-| 10e campagne | 10 h | 75% plus rapide |
-
-**Ce que vous accumulerez :**
-- Modèles de brief de campagne
-- Directives de voix de marque
-- Modèles de contenu (blog, email, réseaux sociaux, publicités)
-- Frameworks de personas
-- Modèles d'analyse concurrentielle
-- Checklists d'optimisation SEO
-- Agents réviseurs personnalisés
-- Modèles d'automatisation de workflows
-
----
-
 ## Parcours d'apprentissage
 
 ### Parcours 1 : Démarrage rapide (30 min)
@@ -561,13 +336,7 @@ Pour les marketeurs expérimentés - passez directement à la production :
 /cro:page "Your landing page"
 ```
 
-### Parcours 2 : Formation complète (5-6 h)
-Pour les débutants - complétez la formation interactive :
-```bash
-/training:start-0-0  # Commencer ici
-```
-
-### Parcours 3 : Compétences spécifiques (15-30 min chacune)
+### Parcours 2 : Compétences spécifiques (15-30 min chacune)
 Apprenez des compétences spécifiques selon les besoins :
 
 | Objectif | Commandes |
@@ -579,14 +348,6 @@ Apprenez des compétences spécifiques selon les besoins :
 | **Évoluer le SEO** | `/seo:programmatic`, `/seo:schema` |
 | **Concevoir des parrainages** | `/growth:referral` |
 | **Tests A/B** | `/test:ab-setup` |
-
-### Parcours 4 : Maîtrise du CRO (60 min)
-Formation complète d'optimisation de conversion :
-```bash
-/training:start-3-1  # Commencer avec les fondamentaux
-/training:start-3-2  # Formulaire et inscription
-/training:start-3-3  # Popup et onboarding
-```
 
 ---
 

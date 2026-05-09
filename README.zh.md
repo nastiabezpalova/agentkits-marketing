@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">网站</a> •
   <a href="https://www.agentkits.net/docs">文档</a> •
-  <a href="#安装">安装</a> •
-  <a href="#培训">培训</a>
+  <a href="#安装">安装</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # 潜在客户到客户
 |       |-- crm-workflow.md             # 联系人生命周期
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # 文档和指南
 |-- marketplace.json     # 自托管市场配置
 ```
@@ -338,219 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## 培训
-
-**22 个互动课程**,掌握 AI 驱动的营销。在您的 AI 助手中通过实际营销工作学习。
-
-| | |
-|---|---|
-| **方法** | Claude 教授的互动课程 |
-| **项目** | Markit 代理机构为客户 AgentKits 工作 |
-| **时长** | 总计 5-6 小时 |
-| **前提条件** | Claude Code、Cursor 或兼容的 AI 助手 |
-| **语言** | 英语、越南语(Tiếng Việt)、日语(日本語) |
-
-```bash
-# Start training in your language
-/training:start-0-0           # English
-/training-zh:start-0-0        # 简体中文
-/training-ja:start-0-0        # 日本語
-/training-ko:start-0-0        # 한국어
-/training-es:start-0-0        # Español
-/training-de:start-0-0        # Deutsch
-/training-fr:start-0-0        # Français
-/training-pt-br:start-0-0     # Português
-/training-vi:start-0-0        # Tiếng Việt
-/training-ru:start-0-0        # Русский
-/training-ar:start-0-0        # العربية
-```
-
----
-
-### 实践项目:Markit 代理机构
-
-您是 **Markit** 的营销策略师,这是一家 B2B SaaS 营销代理机构。
-
-**您的客户:** AgentKits - AI 营销自动化工具包
-
-| | |
-|---|---|
-| **产品** | 企业级 AI 营销自动化 |
-| **目标** | SaaS 创始人、营销人员和增长团队 |
-| **定价** | 免费开源(MIT 许可证) |
-| **竞争对手** | Jasper、Copy.ai、HubSpot |
-
-**关键人物角色:**
-- **Solo Sam**(25-35 岁)- 独立创业者/独立黑客,自举式 SaaS
-- **Marketer Maya**(30-40 岁)- 营销经理,中型 SaaS 公司
-- **Founder Felix**(28-40 岁)- 技术创始人,早期创业公司
-
----
-
-### 模块 0:入门(30 分钟)
-
-学习基础知识并完成您的第一个营销任务。
-
-| 命令 | 课程 | 时长 |
-|---------|--------|----------|
-| `/training:start-0-0` | 课程介绍 | 10 分钟 |
-| `/training:start-0-1` | 安装与设置 | 15 分钟 |
-| `/training:start-0-2` | 您的第一个营销任务 | 15 分钟 |
-
-**您将学习:**
-- AI 助手界面和基本命令
-- 文件创建和管理
-- 与 AI 交互完成营销任务
-
----
-
-### 模块 1:核心概念(90 分钟)
-
-通过 Markit 代理机构项目掌握基本工作流。
-
-| 命令 | 课程 | 时长 |
-|---------|--------|----------|
-| `/training:start-1-1` | 欢迎来到 Markit | 20 分钟 |
-| `/training:start-1-2` | 处理营销文件 | 25 分钟 |
-| `/training:start-1-3` | 第一个营销任务 | 30 分钟 |
-| `/training:start-1-4` | 使用 Agents 进行营销 | 35 分钟 |
-| `/training:start-1-5` | 审查 Agents 深度解析 | 30 分钟 |
-| `/training:start-1-6` | 项目记忆(CLAUDE.md) | 20 分钟 |
-| `/training:start-1-7` | 导航与搜索 | 20 分钟 |
-
-**您将学习:**
-- 活动简报创建
-- 品牌声音和人物角色开发
-- Agent 协调和委派
-- 文件组织最佳实践
-- 有效使用项目记忆
-
-**您将构建:**
-- 完整的活动简报
-- 品牌指南文档
-- 客户人物角色
-- 自定义审查 agents
-
----
-
-### 模块 2:高级应用(120 分钟)
-
-将技能应用于大规模的真实营销场景。
-
-| 命令 | 课程 | 时长 |
-|---------|--------|----------|
-| `/training:start-2-1` | 编写活动简报 | 45 分钟 |
-| `/training:start-2-2` | 开发内容策略 | 40 分钟 |
-| `/training:start-2-3` | 生成营销文案 | 35 分钟 |
-| `/training:start-2-4` | 分析活动数据 | 35 分钟 |
-| `/training:start-2-5` | 竞争分析 | 30 分钟 |
-| `/training:start-2-6` | SEO 优化 | 40 分钟 |
-
-**您将学习:**
-- 战略活动规划
-- 多渠道内容创作
-- 数据分析和洞察
-- 竞争情报收集
-- SEO 最佳实践
-
-**您将构建:**
-- 完整的内容库(博客、邮件、社交、广告)
-- 竞争分析报告
-- SEO 优化计划
-- 活动分析仪表板
-
----
-
-### 模块 3:CRO 与转化(60 分钟)
-
-通过专业 CRO skills 掌握转化率优化。
-
-| 命令 | 课程 | 时长 |
-|---------|--------|----------|
-| `/training:start-3-1` | CRO 基础 | 20 分钟 |
-| `/training:start-3-2` | 表单与注册优化 | 20 分钟 |
-| `/training:start-3-3` | 弹窗与引导 CRO | 20 分钟 |
-
-**您将学习:**
-- 完整转化漏斗的 7 个 CRO skills
-- 表单优化(5 字段规则)
-- 注册流程最佳实践
-- 弹窗设计和触发器
-- 引导和激活
-- 付费墙和升级页面
-- A/B 测试设计
-
-**您将构建:**
-- 着陆页 CRO 审计
-- 优化的表单设计
-- 引导流程
-- 升级页面
-- A/B 测试假设
-
-**完整 CRO 漏斗覆盖:**
-```
-访客 → 页面 CRO → 表单 CRO → 注册 CRO
-     ↓
-  弹窗 CRO(捕获放弃者)
-     ↓
-新用户 → 引导 CRO → 激活
-     ↓
-免费用户 → 付费墙 CRO → 付费客户
-```
-
----
-
-### 奖励内容
-
-| 命令 | 描述 |
-|---------|-------------|
-| `/training:bonus-patterns` | 标题、邮件、社交、广告、CRO 的模式库 |
-| `/training:bonus-secret` | 10 倍营销人员框架 |
-| `/training:help` | 显示所有可用的培训命令 |
-
----
-
-### 多语言培训
-
-培训提供 3 种语言。所有内容相同 - 选择您喜欢的语言:
-
-| 语言 | 命令前缀 | 示例 |
-|----------|---------------|---------|
-| **英语** | `/training:` | `/training:start-0-0` |
-| **越南语**(Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **日语**(日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**可用的本地化命令:**
-- `start-0-0` 到 `start-0-2`(模块 0)
-- `start-1-1` 到 `start-1-7`(模块 1)
-- `start-2-1` 到 `start-2-6`(模块 2)
-- `start-3-1` 到 `start-3-3`(模块 3)
-- `help`、`bonus-patterns`、`bonus-secret`、`persona-builder`
-
----
-
-### 复利效应
-
-每个活动都会让下一个更快:
-
-| 活动 | 时间 | 改进 |
-|----------|------|-------------|
-| 第一个(模块 2) | 40 小时 | 从头开始构建 |
-| 第 5 个活动 | 15 小时 | 快 62% |
-| 第 10 个活动 | 10 小时 | 快 75% |
-
-**您将积累:**
-- 活动简报模板
-- 品牌声音指南
-- 内容模板(博客、邮件、社交、广告)
-- 人物角色框架
-- 竞争分析模板
-- SEO 优化检查清单
-- 自定义审查 agents
-- 工作流自动化模式
-
----
-
 ## 学习路径
 
 ### 路径 1:快速开始(30 分钟)
@@ -561,13 +336,7 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 /cro:page "Your landing page"
 ```
 
-### 路径 2:完整培训(5-6 小时)
-适用于初学者 - 完成互动培训:
-```bash
-/training:start-0-0  # 从这里开始
-```
-
-### 路径 3:特定技能(每个 15-30 分钟)
+### 路径 2:特定技能(每个 15-30 分钟)
 根据需要学习特定技能:
 
 | 目标 | 命令 |
@@ -579,14 +348,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 | **规模化 SEO** | `/seo:programmatic`、`/seo:schema` |
 | **设计推荐计划** | `/growth:referral` |
 | **A/B 测试** | `/test:ab-setup` |
-
-### 路径 4:CRO 精通(60 分钟)
-完成转化优化培训:
-```bash
-/training:start-3-1  # 从基础开始
-/training:start-3-2  # 表单与注册
-/training:start-3-3  # 弹窗与引导
-```
 
 ---
 

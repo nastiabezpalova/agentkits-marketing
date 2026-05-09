@@ -330,15 +330,6 @@ modules:
       - commands/analytics/*
       - commands/report/*
 
-  training:
-    name: "Marketing Training"
-    required: false
-    description: "23 interactive modules, pattern library, best practices"
-    includes:
-      - commands/training/*
-      - skills/marketing-psychology/*
-      - skills/marketing-ideas/*
-
 # ============================================================================
 # Template Types
 # ============================================================================

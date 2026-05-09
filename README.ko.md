@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">웹사이트</a> •
   <a href="https://www.agentkits.net/docs">문서</a> •
-  <a href="#설치">설치</a> •
-  <a href="#교육">교육</a>
+  <a href="#설치">설치</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # 리드에서 고객까지
 |       |-- crm-workflow.md             # 연락처 라이프사이클
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # 문서 및 가이드
 |-- marketplace.json     # 자체 호스팅 마켓플레이스 구성
 ```
@@ -338,219 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## 교육
-
-AI 기반 마케팅을 마스터하기 위한 **22개의 대화형 레슨**. AI 어시스턴트 내에서 실제 마케팅 작업을 수행하며 학습하세요.
-
-| | |
-|---|---|
-| **방법** | Claude가 가르치는 대화형 레슨 |
-| **프로젝트** | 고객 AgentKits를 위한 Markit 에이전시 |
-| **소요 시간** | 총 5-6시간 |
-| **사전 요구사항** | Claude Code, Cursor 또는 호환 AI 어시스턴트 |
-| **언어** | 영어, 베트남어 (Tiếng Việt), 일본어 (日本語) |
-
-```bash
-# Start training in your language
-/training:start-0-0           # English
-/training-zh:start-0-0        # 简体中文
-/training-ja:start-0-0        # 日本語
-/training-ko:start-0-0        # 한국어
-/training-es:start-0-0        # Español
-/training-de:start-0-0        # Deutsch
-/training-fr:start-0-0        # Français
-/training-pt-br:start-0-0     # Português
-/training-vi:start-0-0        # Tiếng Việt
-/training-ru:start-0-0        # Русский
-/training-ar:start-0-0        # العربية
-```
-
----
-
-### 실습 프로젝트: Markit 에이전시
-
-당신은 **Markit**의 마케팅 전략가입니다. Markit은 B2B SaaS 마케팅 에이전시입니다.
-
-**고객:** AgentKits - AI 마케팅 자동화 툴킷
-
-| | |
-|---|---|
-| **제품** | 엔터프라이즈급 AI 마케팅 자동화 |
-| **타겟** | SaaS 창업자, 마케터, 성장 팀 |
-| **가격** | 무료 & 오픈 소스 (MIT 라이선스) |
-| **경쟁사** | Jasper, Copy.ai, HubSpot |
-
-**주요 페르소나:**
-- **Solo Sam** (25-35) - 솔로프레너/인디 해커, 부트스트랩 SaaS
-- **Marketer Maya** (30-40) - 마케팅 매니저, 중견 SaaS 회사
-- **Founder Felix** (28-40) - 기술 창업자, 초기 단계 스타트업
-
----
-
-### 모듈 0: 시작하기 (30분)
-
-기본 사항을 배우고 첫 번째 마케팅 작업을 완료하세요.
-
-| 커맨드 | 레슨 | 소요 시간 |
-|---------|--------|----------|
-| `/training:start-0-0` | 코스 소개 | 10분 |
-| `/training:start-0-1` | 설치 및 설정 | 15분 |
-| `/training:start-0-2` | 첫 번째 마케팅 작업 | 15분 |
-
-**배우는 내용:**
-- AI 어시스턴트 인터페이스 및 기본 커맨드
-- 파일 생성 및 관리
-- 마케팅 작업을 위한 AI와의 상호작용
-
----
-
-### 모듈 1: 핵심 개념 (90분)
-
-Markit 에이전시 프로젝트를 통해 기본 워크플로우를 마스터하세요.
-
-| 커맨드 | 레슨 | 소요 시간 |
-|---------|--------|----------|
-| `/training:start-1-1` | Markit에 오신 것을 환영합니다 | 20분 |
-| `/training:start-1-2` | 마케팅 파일 작업 | 25분 |
-| `/training:start-1-3` | 첫 번째 마케팅 작업 | 30분 |
-| `/training:start-1-4` | 마케팅을 위한 에이전트 사용 | 35분 |
-| `/training:start-1-5` | 리뷰어 에이전트 심화 학습 | 30분 |
-| `/training:start-1-6` | 프로젝트 메모리 (CLAUDE.md) | 20분 |
-| `/training:start-1-7` | 탐색 및 검색 | 20분 |
-
-**배우는 내용:**
-- 캠페인 브리프 작성
-- 브랜드 보이스 및 페르소나 개발
-- 에이전트 조정 및 위임
-- 파일 조직 모범 사례
-- 프로젝트 메모리 효과적 사용
-
-**제작하는 것:**
-- 완전한 캠페인 브리프
-- 브랜드 가이드라인 문서
-- 고객 페르소나
-- 맞춤형 리뷰어 에이전트
-
----
-
-### 모듈 2: 고급 응용 (120분)
-
-실제 마케팅 시나리오에 대규모로 스킬을 적용하세요.
-
-| 커맨드 | 레슨 | 소요 시간 |
-|---------|--------|----------|
-| `/training:start-2-1` | 캠페인 브리프 작성 | 45분 |
-| `/training:start-2-2` | 콘텐츠 전략 개발 | 40분 |
-| `/training:start-2-3` | 마케팅 카피 생성 | 35분 |
-| `/training:start-2-4` | 캠페인 데이터 분석 | 35분 |
-| `/training:start-2-5` | 경쟁 분석 | 30분 |
-| `/training:start-2-6` | SEO 최적화 | 40분 |
-
-**배우는 내용:**
-- 전략적 캠페인 기획
-- 멀티채널 콘텐츠 제작
-- 데이터 분석 및 인사이트
-- 경쟁 인텔리전스 수집
-- SEO 모범 사례
-
-**제작하는 것:**
-- 완전한 콘텐츠 라이브러리 (블로그, 이메일, 소셜, 광고)
-- 경쟁 분석 보고서
-- SEO 최적화 계획
-- 캠페인 분석 대시보드
-
----
-
-### 모듈 3: CRO & 전환 (60분)
-
-전문화된 CRO 스킬로 전환율 최적화를 마스터하세요.
-
-| 커맨드 | 레슨 | 소요 시간 |
-|---------|--------|----------|
-| `/training:start-3-1` | CRO 기초 | 20분 |
-| `/training:start-3-2` | 양식 및 가입 최적화 | 20분 |
-| `/training:start-3-3` | 팝업 및 온보딩 CRO | 20분 |
-
-**배우는 내용:**
-- 전체 전환 퍼널을 위한 7가지 CRO 스킬
-- 양식 최적화 (5-필드 규칙)
-- 가입 플로우 모범 사례
-- 팝업 디자인 및 트리거
-- 온보딩 및 활성화
-- 페이월 및 업그레이드 화면
-- A/B 테스트 설계
-
-**제작하는 것:**
-- 랜딩 페이지 CRO 감사
-- 최적화된 양식 디자인
-- 온보딩 플로우
-- 업그레이드 화면
-- A/B 테스트 가설
-
-**전체 CRO 퍼널 커버리지:**
-```
-방문자 → 페이지 CRO → 양식 CRO → 가입 CRO
-     ↓
-  팝업 CRO (이탈자 캡처)
-     ↓
-신규 사용자 → 온보딩 CRO → 활성화
-     ↓
-무료 사용자 → 페이월 CRO → 유료 고객
-```
-
----
-
-### 보너스 콘텐츠
-
-| 커맨드 | 설명 |
-|---------|-------------|
-| `/training:bonus-patterns` | 헤드라인, 이메일, 소셜, 광고, CRO를 위한 패턴 라이브러리 |
-| `/training:bonus-secret` | 10배 마케터 프레임워크 |
-| `/training:help` | 사용 가능한 모든 교육 커맨드 보기 |
-
----
-
-### 다국어 교육
-
-교육은 3개 언어로 제공됩니다. 모든 콘텐츠는 동일합니다 - 선호하는 언어를 선택하세요:
-
-| 언어 | 커맨드 접두사 | 예시 |
-|----------|---------------|---------|
-| **영어** | `/training:` | `/training:start-0-0` |
-| **베트남어** (Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **일본어** (日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**사용 가능한 현지화 커맨드:**
-- `start-0-0` 에서 `start-0-2` (모듈 0)
-- `start-1-1` 에서 `start-1-7` (모듈 1)
-- `start-2-1` 에서 `start-2-6` (모듈 2)
-- `start-3-1` 에서 `start-3-3` (모듈 3)
-- `help`, `bonus-patterns`, `bonus-secret`, `persona-builder`
-
----
-
-### 복리 효과
-
-각 캠페인이 다음 캠페인을 더 빠르게 만듭니다:
-
-| 캠페인 | 시간 | 개선도 |
-|----------|------|-------------|
-| 첫 번째 (모듈 2) | 40시간 | 처음부터 구축 |
-| 5번째 캠페인 | 15시간 | 62% 더 빠름 |
-| 10번째 캠페인 | 10시간 | 75% 더 빠름 |
-
-**축적되는 것:**
-- 캠페인 브리프 템플릿
-- 브랜드 보이스 가이드라인
-- 콘텐츠 템플릿 (블로그, 이메일, 소셜, 광고)
-- 페르소나 프레임워크
-- 경쟁 분석 템플릿
-- SEO 최적화 체크리스트
-- 맞춤형 리뷰어 에이전트
-- 워크플로우 자동화 패턴
-
----
-
 ## 학습 경로
 
 ### 경로 1: 빠른 시작 (30분)
@@ -561,13 +336,7 @@ Markit 에이전시 프로젝트를 통해 기본 워크플로우를 마스터�
 /cro:page "Your landing page"
 ```
 
-### 경로 2: 전체 교육 (5-6시간)
-초보자용 - 대화형 교육 완료:
-```bash
-/training:start-0-0  # 여기서 시작
-```
-
-### 경로 3: 스킬별 (각 15-30분)
+### 경로 2: 스킬별 (각 15-30분)
 필요에 따라 특정 스킬 학습:
 
 | 목표 | 커맨드 |
@@ -579,14 +348,6 @@ Markit 에이전시 프로젝트를 통해 기본 워크플로우를 마스터�
 | **SEO 확장** | `/seo:programmatic`, `/seo:schema` |
 | **추천 설계** | `/growth:referral` |
 | **A/B 테스팅** | `/test:ab-setup` |
-
-### 경로 4: CRO 마스터리 (60분)
-전환율 최적화 교육 완료:
-```bash
-/training:start-3-1  # 기초부터 시작
-/training:start-3-2  # 양식 및 가입
-/training:start-3-3  # 팝업 및 온보딩
-```
 
 ---
 

@@ -142,7 +142,6 @@ Use schema from `.claude/skills/schemas/output-schemas.yaml`:
 
 | File | Change | Reason |
 |------|--------|--------|
-| Training commands | Update examples | Better onboarding |
 | Settings | Add preferences | Customization |
 
 ---
@@ -279,4 +278,3 @@ Use schema from `.claude/skills/schemas/output-schemas.yaml`:
 ### Phase 3: Supporting Updates
 1. Remaining agents
 2. Remaining commands
-3. Training updates

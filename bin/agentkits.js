@@ -292,18 +292,6 @@ program
           'Attribution modeling',
         ],
       },
-      {
-        name: 'TRAINING',
-        fullName: 'Marketing Training',
-        brand: 'Skill Building',
-        icon: '📚',
-        required: false,
-        features: [
-          '23 interactive training modules',
-          'Pattern library and best practices',
-          '10x Marketer Framework',
-        ],
-      },
     ];
 
     modules.forEach((mod, index) => {

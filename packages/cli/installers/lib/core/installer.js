@@ -269,16 +269,11 @@ class Installer {
         value: 'analytics',
         checked: true,
       },
-      {
-        name: `${chalk.bold.magenta('📚 Marketing Training')} ${chalk.yellow('Skill Building')}\n     ${chalk.white('23 interactive modules • Pattern library • Best practices')}\n     ${chalk.gray('• 10x Marketer Framework • Hands-on exercises')}\n`,
-        value: 'training',
-        checked: true,
-      },
     ];
 
     if (options.yes) {
       // Install all modules by default
-      return ['core', 'seo', 'cro', 'content', 'email', 'analytics', 'training'];
+      return ['core', 'seo', 'cro', 'content', 'email', 'analytics'];
     }
 
     const { selectedModules } = await inquirer.prompt([
@@ -427,11 +422,6 @@ class Installer {
             return true;
           }
 
-          // Filter by module - training commands
-          if (relativePath.startsWith('commands/training') && !selectedModules.includes('training')) {
-            return false;
-          }
-
           return true;
         },
       });
@@ -494,10 +484,8 @@ class Installer {
 
     console.log(chalk.bold('Next steps:\n'));
     console.log('  1. Open your project in your AI IDE');
-    console.log('  2. Run ' + chalk.cyan('/training:start-0-0') + ' to begin the course');
-    console.log('  3. Try ' + chalk.cyan('/campaign:plan') + ' to create a campaign');
-    console.log('  4. Run ' + chalk.cyan('/content:blog') + ' to write a blog post');
-    console.log('  5. Run ' + chalk.cyan('/training:help') + ' to see all commands\n');
+    console.log('  2. Try ' + chalk.cyan('/campaign:plan') + ' to create a campaign');
+    console.log('  3. Run ' + chalk.cyan('/content:blog') + ' to write a blog post\n');
 
     console.log(chalk.dim('Documentation: https://agentkits.net'));
     console.log(chalk.dim('Support: https://github.com/aitytech/agentkits-marketing/issues\n'));

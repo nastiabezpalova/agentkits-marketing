@@ -23,9 +23,6 @@
 # Workflows
 /.claude/workflows/ @aitytech/core
 
-# Training content
-/training/ @aitytech/core
-
 # Documentation
 /docs/ @aitytech/core
 /README.md @aitytech/core

@@ -8,7 +8,3 @@ contact_links:
   - name: Documentation
     url: https://www.agentkits.net/docs
     about: Read the documentation for answers
-
-  - name: Training
-    url: https://github.com/aitytech/agentkits-marketing/tree/main/training
-    about: Learn AgentKits with our training modules

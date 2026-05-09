@@ -12,7 +12,7 @@
     {
       "name": "agentkits-marketing",
       "source": "./",
-      "description": "Full marketing automation suite - 20 agents, 90+ commands, 28 skills, workflows, and training",
+      "description": "Full marketing automation suite - 20 agents, 90+ commands, 28 skills, and workflows",
       "version": "1.7.2",
       "author": {
         "name": "AityTech"

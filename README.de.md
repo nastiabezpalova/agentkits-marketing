@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">Website</a> •
   <a href="https://www.agentkits.net/docs">Docs</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#training">Training</a>
+  <a href="#installation">Installation</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # Lead zu Kunde
 |       |-- crm-workflow.md             # Kontakt-Lebenszyklus
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # Dokumentation und Leitfäden
 |-- marketplace.json     # Self-Hosted Marketplace-Konfiguration
 ```
@@ -338,219 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## Training
-
-**22 interaktive Lektionen** um KI-gestütztes Marketing zu meistern. Lernen Sie durch echte Marketing-Arbeit in Ihrem KI-Assistenten.
-
-| | |
-|---|---|
-| **Methode** | Interaktive Lektionen unterrichtet von Claude |
-| **Projekt** | Markit Agency arbeitet für Kunden AgentKits |
-| **Dauer** | 5-6 Stunden insgesamt |
-| **Voraussetzung** | Claude Code, Cursor oder kompatibler KI-Assistent |
-| **Languages** | 10 languages: EN, 简体中文, 日本語, 한국어, ES, DE, FR, PT, VI, RU, AR |
-
-```bash
-# Start training in your language
-/training:start-0-0           # English
-/training-zh:start-0-0        # 简体中文
-/training-ja:start-0-0        # 日本語
-/training-ko:start-0-0        # 한국어
-/training-es:start-0-0        # Español
-/training-de:start-0-0        # Deutsch
-/training-fr:start-0-0        # Français
-/training-pt-br:start-0-0     # Português
-/training-vi:start-0-0        # Tiếng Việt
-/training-ru:start-0-0        # Русский
-/training-ar:start-0-0        # العربية
-```
-
----
-
-### Übungsprojekt: Markit Agency
-
-Sie sind Marketing-Stratege bei **Markit**, einer B2B-SaaS-Marketing-Agentur.
-
-**Ihr Kunde:** AgentKits - KI-Marketing-Automatisierungs-Toolkit
-
-| | |
-|---|---|
-| **Produkt** | KI-Marketing-Automatisierung auf Unternehmensniveau |
-| **Zielgruppe** | SaaS-Gründer, Marketer und Growth-Teams |
-| **Preisgestaltung** | Kostenlos & Open Source (MIT-Lizenz) |
-| **Wettbewerber** | Jasper, Copy.ai, HubSpot |
-
-**Wichtige Personas:**
-- **Solo Sam** (25-35) - Solopreneur/Indie-Hacker, bootstrapped SaaS
-- **Marketer Maya** (30-40) - Marketing-Managerin, mittelgroßes SaaS-Unternehmen
-- **Founder Felix** (28-40) - Technischer Gründer, Early-Stage-Startup
-
----
-
-### Modul 0: Erste Schritte (30 Min.)
-
-Lernen Sie die Grundlagen und schließen Sie Ihre erste Marketing-Aufgabe ab.
-
-| Command | Lektion | Dauer |
-|---------|--------|----------|
-| `/training:start-0-0` | Kurs-Einführung | 10 Min. |
-| `/training:start-0-1` | Installation & Setup | 15 Min. |
-| `/training:start-0-2` | Ihre erste Marketing-Aufgabe | 15 Min. |
-
-**Was Sie lernen werden:**
-- KI-Assistenten-Interface und grundlegende Befehle
-- Datei-Erstellung und -Verwaltung
-- Interaktion mit KI für Marketing-Aufgaben
-
----
-
-### Modul 1: Kernkonzepte (90 Min.)
-
-Meistern Sie fundamentale Workflows durch das Markit-Agency-Projekt.
-
-| Command | Lektion | Dauer |
-|---------|--------|----------|
-| `/training:start-1-1` | Willkommen bei Markit | 20 Min. |
-| `/training:start-1-2` | Arbeiten mit Marketing-Dateien | 25 Min. |
-| `/training:start-1-3` | Erste Marketing-Aufgaben | 30 Min. |
-| `/training:start-1-4` | Agents für Marketing nutzen | 35 Min. |
-| `/training:start-1-5` | Reviewer-Agents Deep Dive | 30 Min. |
-| `/training:start-1-6` | Projekt-Memory (CLAUDE.md) | 20 Min. |
-| `/training:start-1-7` | Navigation & Suche | 20 Min. |
-
-**Was Sie lernen werden:**
-- Erstellung von Kampagnen-Briefings
-- Brand Voice und Persona-Entwicklung
-- Agent-Koordination und Delegation
-- Best Practices für Datei-Organisation
-- Effektive Nutzung des Projekt-Memory
-
-**Was Sie erstellen werden:**
-- Vollständiges Kampagnen-Briefing
-- Brand-Guidelines-Dokument
-- Kunden-Personas
-- Individuelle Reviewer-Agents
-
----
-
-### Modul 2: Fortgeschrittene Anwendungen (120 Min.)
-
-Wenden Sie Skills auf reale Marketing-Szenarien im großen Maßstab an.
-
-| Command | Lektion | Dauer |
-|---------|--------|----------|
-| `/training:start-2-1` | Kampagnen-Briefing schreiben | 45 Min. |
-| `/training:start-2-2` | Content-Strategie entwickeln | 40 Min. |
-| `/training:start-2-3` | Marketing-Texte generieren | 35 Min. |
-| `/training:start-2-4` | Kampagnendaten analysieren | 35 Min. |
-| `/training:start-2-5` | Wettbewerbsanalyse | 30 Min. |
-| `/training:start-2-6` | SEO-Optimierung | 40 Min. |
-
-**Was Sie lernen werden:**
-- Strategische Kampagnenplanung
-- Multi-Channel-Content-Erstellung
-- Datenanalyse und Insights
-- Wettbewerbsintelligenz sammeln
-- SEO-Best-Practices
-
-**Was Sie erstellen werden:**
-- Vollständige Content-Bibliothek (Blog, E-Mail, Social, Ads)
-- Wettbewerbsanalyse-Bericht
-- SEO-Optimierungsplan
-- Kampagnen-Analytics-Dashboard
-
----
-
-### Modul 3: CRO & Conversion (60 Min.)
-
-Meistern Sie Conversion-Rate-Optimierung mit spezialisierten CRO-Skills.
-
-| Command | Lektion | Dauer |
-|---------|--------|----------|
-| `/training:start-3-1` | CRO-Grundlagen | 20 Min. |
-| `/training:start-3-2` | Formular- & Anmelde-Optimierung | 20 Min. |
-| `/training:start-3-3` | Popup- & Onboarding-CRO | 20 Min. |
-
-**Was Sie lernen werden:**
-- 7 CRO-Skills für den kompletten Conversion-Funnel
-- Formular-Optimierung (5-Felder-Regel)
-- Anmelde-Flow-Best-Practices
-- Popup-Design und Trigger
-- Onboarding und Aktivierung
-- Paywall- und Upgrade-Screens
-- A/B-Test-Design
-
-**Was Sie erstellen werden:**
-- Landing-Page-CRO-Audit
-- Optimiertes Formular-Design
-- Onboarding-Flow
-- Upgrade-Screen
-- A/B-Test-Hypothesen
-
-**Vollständige CRO-Funnel-Abdeckung:**
-```
-Besucher → Page CRO → Form CRO → Signup CRO
-     ↓
-  Popup CRO (Abbrecher erfassen)
-     ↓
-Neuer Benutzer → Onboarding CRO → Aktivierung
-     ↓
-Kostenloser Benutzer → Paywall CRO → Zahlender Kunde
-```
-
----
-
-### Bonus-Inhalte
-
-| Command | Beschreibung |
-|---------|-------------|
-| `/training:bonus-patterns` | Pattern-Bibliothek für Headlines, E-Mails, Social, Ads, CRO |
-| `/training:bonus-secret` | Das 10x-Marketer-Framework |
-| `/training:help` | Alle verfügbaren Training-Commands anzeigen |
-
----
-
-### Mehrsprachiges Training
-
-Training ist in 3 Sprachen verfügbar. Alle Inhalte sind identisch - wählen Sie Ihre bevorzugte Sprache:
-
-| Sprache | Command-Präfix | Beispiel |
-|----------|---------------|---------|
-| **English** | `/training:` | `/training:start-0-0` |
-| **Vietnamese** (Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **Japanese** (日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**Verfügbare lokalisierte Commands:**
-- `start-0-0` bis `start-0-2` (Modul 0)
-- `start-1-1` bis `start-1-7` (Modul 1)
-- `start-2-1` bis `start-2-6` (Modul 2)
-- `start-3-1` bis `start-3-3` (Modul 3)
-- `help`, `bonus-patterns`, `bonus-secret`, `persona-builder`
-
----
-
-### Der Compounding-Effekt
-
-Jede Kampagne macht die nächste schneller:
-
-| Kampagne | Zeit | Verbesserung |
-|----------|------|-------------|
-| Erste (Modul 2) | 40 Std. | Von Grund auf erstellen |
-| 5. Kampagne | 15 Std. | 62% schneller |
-| 10. Kampagne | 10 Std. | 75% schneller |
-
-**Was Sie ansammeln werden:**
-- Kampagnen-Briefing-Vorlagen
-- Brand-Voice-Guidelines
-- Content-Vorlagen (Blog, E-Mail, Social, Ads)
-- Persona-Frameworks
-- Wettbewerbsanalyse-Vorlagen
-- SEO-Optimierungs-Checklisten
-- Individuelle Reviewer-Agents
-- Workflow-Automatisierungsmuster
-
----
-
 ## Lernpfade
 
 ### Pfad 1: Schnellstart (30 Min.)
@@ -561,13 +336,7 @@ Für erfahrene Marketer - direkt zur Produktion springen:
 /cro:page "Your landing page"
 ```
 
-### Pfad 2: Vollständiges Training (5-6 Std.)
-Für Anfänger - vollständiges interaktives Training absolvieren:
-```bash
-/training:start-0-0  # Hier starten
-```
-
-### Pfad 3: Skill-spezifisch (15-30 Min. jeweils)
+### Pfad 2: Skill-spezifisch (15-30 Min. jeweils)
 Lernen Sie spezifische Skills nach Bedarf:
 
 | Ziel | Commands |
@@ -579,14 +348,6 @@ Lernen Sie spezifische Skills nach Bedarf:
 | **SEO skalieren** | `/seo:programmatic`, `/seo:schema` |
 | **Empfehlungen gestalten** | `/growth:referral` |
 | **A/B-Testing** | `/test:ab-setup` |
-
-### Pfad 4: CRO-Meisterschaft (60 Min.)
-Vollständiges Conversion-Optimierungs-Training absolvieren:
-```bash
-/training:start-3-1  # Mit Grundlagen beginnen
-/training:start-3-2  # Formular & Anmeldung
-/training:start-3-3  # Popup & Onboarding
-```
 
 ---
 

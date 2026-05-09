@@ -52,7 +52,6 @@ Follow the interactive prompts to select your AI tools and modules.
 | **Content** | No | Blog, social, landing pages, copywriting, editing |
 | **Email** | No | Welcome, nurture, re-engagement sequences |
 | **Analytics** | No | Campaign ROI, funnel analysis, attribution |
-| **Training** | No | 23 interactive modules, pattern library |
 
 ## Commands
 

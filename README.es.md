@@ -25,8 +25,7 @@
 <p align="center">
   <a href="https://www.agentkits.net/marketing">Sitio Web</a> •
   <a href="https://www.agentkits.net/docs">Documentación</a> •
-  <a href="#instalación">Instalar</a> •
-  <a href="#formación">Formación</a>
+  <a href="#instalación">Instalar</a>
 </p>
 
 <p align="center">
@@ -98,17 +97,6 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # De lead a cliente
 |       |-- crm-workflow.md             # Ciclo de vida de contacto
 |
-|-- training/            # 23 interactive lessons (English)
-|-- training-zh/         # 简体中文
-|-- training-ja/         # 日本語
-|-- training-ko/         # 한국어
-|-- training-es/         # Español
-|-- training-de/         # Deutsch
-|-- training-fr/         # Français
-|-- training-pt-br/      # Português
-|-- training-vi/         # Tiếng Việt
-|-- training-ru/         # Русский
-|-- training-ar/         # العربية
 |-- docs/                # Documentación y guías
 |-- marketplace.json     # Configuración de marketplace auto-alojado
 ```
@@ -338,211 +326,6 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 
 ---
 
-## Formación
-
-**22 lecciones interactivas** para dominar el marketing impulsado por IA. Aprende haciendo trabajo de marketing real dentro de tu asistente de IA.
-
-| | |
-|---|---|
-| **Método** | Lecciones interactivas enseñadas por Claude |
-| **Proyecto** | Agencia Markit trabajando para el cliente AgentKits |
-| **Duración** | 5-6 horas en total |
-| **Prerrequisito** | Claude Code, Cursor o asistente de IA compatible |
-| **Idiomas** | Inglés, Vietnamita (Tiếng Việt), Japonés (日本語) |
-
-```bash
-# Comenzar formación ahora
-/training:start-0-0           # Inglés
-/training-vi:start-0-0        # Vietnamita (Tiếng Việt)
-/training-ja:start-0-0        # Japonés (日本語)
-```
-
----
-
-### Proyecto de Práctica: Agencia Markit
-
-Eres un Estratega de Marketing en **Markit**, una agencia de marketing SaaS B2B.
-
-**Tu Cliente:** AgentKits - Toolkit de automatización de marketing con IA
-
-| | |
-|---|---|
-| **Producto** | Automatización de marketing con IA de nivel empresarial |
-| **Objetivo** | Fundadores de SaaS, marketers y equipos de crecimiento |
-| **Precio** | Gratuito y de Código Abierto (licencia MIT) |
-| **Competidores** | Jasper, Copy.ai, HubSpot |
-
-**Personas Clave:**
-- **Solo Sam** (25-35) - Solopreneur/indie hacker, SaaS bootstrapped
-- **Marketer Maya** (30-40) - Gerente de marketing, empresa SaaS mediana
-- **Founder Felix** (28-40) - Fundador técnico, startup en etapa temprana
-
----
-
-### Módulo 0: Comenzando (30 min)
-
-Aprende los fundamentos y completa tu primera tarea de marketing.
-
-| Comando | Lección | Duración |
-|---------|--------|----------|
-| `/training:start-0-0` | Introducción al Curso | 10 min |
-| `/training:start-0-1` | Instalación y Configuración | 15 min |
-| `/training:start-0-2` | Tu Primera Tarea de Marketing | 15 min |
-
-**Qué Aprenderás:**
-- Interfaz del asistente de IA y comandos básicos
-- Creación y gestión de archivos
-- Interactuar con IA para tareas de marketing
-
----
-
-### Módulo 1: Conceptos Principales (90 min)
-
-Domina los flujos de trabajo fundamentales a través del proyecto de la agencia Markit.
-
-| Comando | Lección | Duración |
-|---------|--------|----------|
-| `/training:start-1-1` | Bienvenido a Markit | 20 min |
-| `/training:start-1-2` | Trabajando con Archivos de Marketing | 25 min |
-| `/training:start-1-3` | Primeras Tareas de Marketing | 30 min |
-| `/training:start-1-4` | Usando Agentes para Marketing | 35 min |
-| `/training:start-1-5` | Profundización en Agentes Revisores | 30 min |
-| `/training:start-1-6` | Memoria de Proyecto (CLAUDE.md) | 20 min |
-| `/training:start-1-7` | Navegación y Búsqueda | 20 min |
-
-**Qué Aprenderás:**
-- Creación de brief de campaña
-- Desarrollo de voz de marca y persona
-- Coordinación y delegación de agentes
-- Mejores prácticas de organización de archivos
-- Uso efectivo de la memoria del proyecto
-
-**Qué Construirás:**
-- Brief de campaña completo
-- Documento de directrices de marca
-- Personas de clientes
-- Agentes revisores personalizados
-
----
-
-### Módulo 2: Aplicaciones Avanzadas (120 min)
-
-Aplica habilidades a escenarios de marketing reales a escala.
-
-| Comando | Lección | Duración |
-|---------|--------|----------|
-| `/training:start-2-1` | Escribir un Brief de Campaña | 45 min |
-| `/training:start-2-2` | Desarrollar Estrategia de Contenido | 40 min |
-| `/training:start-2-3` | Generar Copy de Marketing | 35 min |
-| `/training:start-2-4` | Analizar Datos de Campaña | 35 min |
-| `/training:start-2-5` | Análisis Competitivo | 30 min |
-| `/training:start-2-6` | Optimización SEO | 40 min |
-
-**Qué Aprenderás:**
-- Planificación estratégica de campañas
-- Creación de contenido multicanal
-- Análisis de datos e insights
-- Recopilación de inteligencia competitiva
-- Mejores prácticas de SEO
-
-**Qué Construirás:**
-- Biblioteca de contenido completa (blog, email, social, ads)
-- Informe de análisis competitivo
-- Plan de optimización SEO
-- Dashboard de analíticas de campaña
-
----
-
-### Módulo 3: CRO y Conversión (60 min)
-
-Domina la optimización de tasa de conversión con habilidades CRO especializadas.
-
-| Comando | Lección | Duración |
-|---------|--------|----------|
-| `/training:start-3-1` | Fundamentos de CRO | 20 min |
-| `/training:start-3-2` | Optimización de Formularios y Signup | 20 min |
-| `/training:start-3-3` | CRO de Popup y Onboarding | 20 min |
-
-**Qué Aprenderás:**
-- 7 habilidades CRO para el funnel de conversión completo
-- Optimización de formularios (regla de 5 campos)
-- Mejores prácticas de flujo de signup
-- Diseño y triggers de popups
-- Onboarding y activación
-- Pantallas de paywall y upgrade
-- Diseño de tests A/B
-
-**Qué Construirás:**
-- Auditoría CRO de landing page
-- Diseño de formulario optimizado
-- Flujo de onboarding
-- Pantalla de upgrade
-- Hipótesis de tests A/B
-
-**Cobertura Completa del Funnel CRO:**
-```
-Visitante → Page CRO → Form CRO → Signup CRO
-     ↓
-  Popup CRO (capturar abandonos)
-     ↓
-Nuevo Usuario → Onboarding CRO → Activación
-     ↓
-Usuario Gratuito → Paywall CRO → Cliente de Pago
-```
-
----
-
-### Contenido Bonus
-
-| Comando | Descripción |
-|---------|-------------|
-| `/training:bonus-patterns` | Biblioteca de patrones para headlines, emails, social, ads, CRO |
-| `/training:bonus-secret` | El Framework del Marketer 10x |
-| `/training:help` | Mostrar todos los comandos de formación disponibles |
-
----
-
-### Formación Multilingüe
-
-La formación está disponible en 3 idiomas. Todo el contenido es idéntico - elige tu idioma preferido:
-
-| Idioma | Prefijo de Comando | Ejemplo |
-|----------|---------------|---------|
-| **Inglés** | `/training:` | `/training:start-0-0` |
-| **Vietnamita** (Tiếng Việt) | `/training-vi:` | `/training-vi:start-0-0` |
-| **Japonés** (日本語) | `/training-ja:` | `/training-ja:start-0-0` |
-
-**Comandos localizados disponibles:**
-- `start-0-0` a `start-0-2` (Módulo 0)
-- `start-1-1` a `start-1-7` (Módulo 1)
-- `start-2-1` a `start-2-6` (Módulo 2)
-- `start-3-1` a `start-3-3` (Módulo 3)
-- `help`, `bonus-patterns`, `bonus-secret`, `persona-builder`
-
----
-
-### El Efecto Compuesto
-
-Cada campaña hace que la siguiente sea más rápida:
-
-| Campaña | Tiempo | Mejora |
-|----------|------|-------------|
-| Primera (Módulo 2) | 40 hrs | Construir desde cero |
-| 5ª campaña | 15 hrs | 62% más rápido |
-| 10ª campaña | 10 hrs | 75% más rápido |
-
-**Qué Acumularás:**
-- Plantillas de brief de campaña
-- Directrices de voz de marca
-- Plantillas de contenido (blog, email, social, ads)
-- Frameworks de persona
-- Plantillas de análisis competitivo
-- Checklists de optimización SEO
-- Agentes revisores personalizados
-- Patrones de automatización de flujos de trabajo
-
----
-
 ## Rutas de Aprendizaje
 
 ### Ruta 1: Inicio Rápido (30 min)
@@ -553,13 +336,7 @@ Para marketers experimentados - salta directo a producción:
 /cro:page "Your landing page"
 ```
 
-### Ruta 2: Formación Completa (5-6 hrs)
-Para principiantes - completa la formación interactiva:
-```bash
-/training:start-0-0  # Comienza aquí
-```
-
-### Ruta 3: Específica por Habilidad (15-30 min cada una)
+### Ruta 2: Específica por Habilidad (15-30 min cada una)
 Aprende habilidades específicas según sea necesario:
 
 | Objetivo | Comandos |
@@ -571,14 +348,6 @@ Aprende habilidades específicas según sea necesario:
 | **Escalar SEO** | `/seo:programmatic`, `/seo:schema` |
 | **Diseñar referidos** | `/growth:referral` |
 | **Testing A/B** | `/test:ab-setup` |
-
-### Ruta 4: Maestría en CRO (60 min)
-Completa la formación de optimización de conversión:
-```bash
-/training:start-3-1  # Comienza con fundamentos
-/training:start-3-2  # Formularios y signup
-/training:start-3-3  # Popup y onboarding
-```
 
 ---
 
