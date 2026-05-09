@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "agentkits-marketing",
+      "name": "123marketing",
       "source": "./",
       "description": "Full marketing automation suite - 20 agents, 90+ commands, 28 skills, and workflows",
       "version": "1.7.2",
